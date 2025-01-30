@@ -1,0 +1,43 @@
+{
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
+
+ {
+  "success": true,
+  "data": [
+    { "id": 1, "name": "John Doe", "email": "john@example.com" }
+  ]
+}
+{
+  "success": true,
+  "data": { "id": 1, "name": "John Doe", "email": "john@example.com" }
+}
+{
+  "name": "Jane Doe",
+  "email": "jane@example.com"
+}
+{
+  "success": true,
+  "data": { "id": 1, "name": "Jane Doe", "email": "jane@example.com" }
+}
+{
+  "success": true,
+  "data": {}
+}
+{
+  "name": "John Doe"
+}
+{
+  "success": false,
+  "error": "Name and email are required"
+}
+{
+  "name": "Jane Doe",
+  "email": "jane@example.com"
+}
+{
+  "success": false,
+  "error": "Something went wrong on the server"
+}
